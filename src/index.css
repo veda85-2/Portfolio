@@ -1,0 +1,32 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+}
+.intro {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: black;
+    color: white;
+}
+.intro h1 {
+    font-size: 3rem;
+    font-family:cursive;
+}
+.cursor {
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+} */
+ @import "tailwindcss"

@@ -28,7 +28,7 @@ function Home() {
                     <a href="#Project" className="btn border-1 border border-red-700 w-[60%] flex justify-center items-center text-red-700 h-full">
                     project
                 </a>
-                <button className="btn bg-red-700 w-[60%] h-full">
+                <button className="btn bg-[#6e2b2b45] border-1 border border-red-800 w-[60%] h-full">
                     Resume
                 </button></div>
                 </div>

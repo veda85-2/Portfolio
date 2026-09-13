@@ -3,9 +3,9 @@ function About() {
   return (
     <section id="About" className="about-section min-h-screen px-[8%] py-[100px]">
       
-      <div className="about-container w-full max-w-[1200px] grid grid-cols-[1fr_1.2fr] mx-[10%] gap-[80px] items-center">
+      <div className="about-container w-full max-w-[1200px] grid grid-cols-[1fr_1.2fr] mx-[10%] gap-[40px] items-center">
 
-        <div className="about-intro min-h-screen flex flex-col justify-center">
+        <div className="about-intro flex flex-col justify-center">
           <p className="section-tag ">ABOUT ME</p>
 
           <h2 className="idea">

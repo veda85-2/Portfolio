@@ -1,21 +1,38 @@
-import Navbar from './components/NavbarTemp.jsx'
-import Home from './components/Home.jsx';
-import About from './components/About.jsx';
-import Project from './components/Project.jsx';
-import Contact from './components/Contact.jsx'; 
-// import Intro from './components/intro.jsx'; 
-
+import { useState } from "react";
+import HOME from "./components/Home.jsx";
+import Intro from "./components/intro.jsx";
+import Navbar from "./components/NavbarTemp.jsx";
+import About from "./components/About";
+import Skills from "./components/skil.jsx";
+import Projects from "./components/Project.jsx";
+import Contact from "./components/contact.jsx";
 
 function App() {
+
+  const [showIntro, setShowIntro] = useState(
+    sessionStorage.getItem("introSeen") !== "true"
+  );
+
+  const enterPortfolio = () => {
+    sessionStorage.setItem("introSeen", "true");
+    setShowIntro(false);
+  };
+
   return (
     <>
-    {/* <Intro/> */}
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Project/>
-      <Contact/>
-      
+      {showIntro ? (
+        <Intro onEnter={enterPortfolio} />
+      ) : (
+        <>
+        
+          <Navbar />
+          <HOME/>
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </>
+      )}
     </>
   );
 }

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 
-function Intro(){
-const text = "welcome to my portfolio ✌️";
+function Intro({onEnter}){
+const text = "";
 
 const [displayText, setDisplayText] = useState("");
 
@@ -16,17 +16,42 @@ useEffect(()=>{
         }
     }, 200)
     return()=> clearInterval(interval);
+    
 },[])
  return (
-      <div className="h-screen w-full bg-black text-white flex flex-col items-center justify-center">
+      <div className="intro-sec h-screen w-full text-white flex flex-col items-center justify-center gap-16">
          
         <h1 className="text-6xl font-bold font-cursive text-center">
             {displayText}
             <span className="animate-pulse">_</span>
         </h1>
+       <button
+        onClick={onEnter}
+        className="px-6 py-6 border border-white rounded-lg hover:bg-white hover:text-red transition h-[50px] w-[50px]"
+      >
+      </button>
      
       </div>
     );
 
 }
+
 export default Intro;
+// function Intro({ onEnter }) {
+
+//   return (
+//     <div className="min-h-screen flex flex-col items-center justify-center">
+
+//       <h1>
+//         Welcome to my Portfolio
+//       </h1>
+
+//       <button onClick={onEnter}>
+//         Enter Portfolio
+//       </button>
+
+//     </div>
+//   );
+// }
+
+// export default Intro;

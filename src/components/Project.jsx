@@ -1,8 +1,9 @@
-
 function Project() {
     return (
-        <section id="Project" className="project-section flex justify-center items-center w-full min-h-[80vh] gap-[20px] px-[8%] py-[20px]">
-
+        <section id="Project" className="project-section flex border-0.5 border border-black-200 justify-center items-center w-full min-h-[80vh] gap-[20px] px-[8%] py-[20px]">
+          <h1 className="project font-bold text-3xl">Project</h1>
+            
+                    
             <div className="cards w-[20%] min-h-[250px] p-[20px] ">
                   <span className="project-number">01</span>
                   <h1>weather</h1>

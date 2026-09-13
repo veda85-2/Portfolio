@@ -8,7 +8,7 @@ function About() {
         <div className="about-intro min-h-screen flex flex-col justify-center">
           <p className="section-tag ">ABOUT ME</p>
 
-          <h2 className="px-[40px]">
+          <h2 className="idea">
             Building ideas into
             <span className="block"> interactive experiences.</span>
           </h2>
@@ -42,7 +42,7 @@ function About() {
             </div>
 
             <div>
-              <h3>05+</h3>
+              <h3>03+</h3>
               <span>Projects</span>
             </div>
 

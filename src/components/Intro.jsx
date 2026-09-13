@@ -23,12 +23,12 @@ useEffect(()=>{
          
         <h1 className="text-6xl font-bold font-cursive text-center">
             {displayText}
-            <span className="animate-pulse">_</span>
+            <span className="animate-pulse">Welcome</span>
         </h1>
        <button
         onClick={onEnter}
-        className="px-6 py-6 border border-white rounded-lg hover:bg-white hover:text-red transition h-[50px] w-[50px]"
-      >
+        className="px-6 py-6 border border-white rounded-lg hover:bg-white hover:text-red  transition h-[80px] w-[80px]"
+      >click me
       </button>
      
       </div>

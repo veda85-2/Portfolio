@@ -3,7 +3,7 @@ function Skills() {
     <section id="skills" className="min-h-screen px-[8%] py-24 text-white w-full h-screen  flex justify-center items-center">
 
     <div className="head">  <h1 className="text-4xl font-semibold">
-        My <span className="text-black">Skills</span>
+          My <span className="text-black">Skills</span>
       </h1>
       </div>
 

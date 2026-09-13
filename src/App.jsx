@@ -5,7 +5,7 @@ import Navbar from "./components/NavbarTemp.jsx";
 import About from "./components/About";
 import Skills from "./components/skil.jsx";
 import Projects from "./components/Project.jsx";
-import Contact from "./components/contact.jsx";
+import Contact from "./components/Contacts.jsx";
 
 function App() {
 

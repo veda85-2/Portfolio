@@ -37,21 +37,3 @@ useEffect(()=>{
 }
 
 export default Intro;
-// function Intro({ onEnter }) {
-
-//   return (
-//     <div className="min-h-screen flex flex-col items-center justify-center">
-
-//       <h1>
-//         Welcome to my Portfolio
-//       </h1>
-
-//       <button onClick={onEnter}>
-//         Enter Portfolio
-//       </button>
-
-//     </div>
-//   );
-// }
-
-// export default Intro;

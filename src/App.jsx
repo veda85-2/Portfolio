@@ -1,9 +1,9 @@
 import { useState } from "react";
-import HOME from "./components/Home.jsx";
-import Intro from "./components/intro.jsx";
+import Home from "./components/Home.jsx";
+import Intro from "./components/Intro.jsx";
 import Navbar from "./components/NavbarTemp.jsx";
 import About from "./components/About";
-import Skills from "./components/skil.jsx";
+import Skills from "./components/Skills.jsx";
 import Projects from "./components/Project.jsx";
 import Contact from "./components/Contacts.jsx";
 
@@ -26,7 +26,7 @@ function App() {
         <>
         
           <Navbar />
-          <HOME/>
+          <Home/>
           <About />
           <Skills />
           <Projects />

@@ -1,5 +1,5 @@
 import profileImg from "../assets/white.jpeg";
-function HOME() {
+function Home() {
     return (
         <section id="Home" className="min-h-screen w-full bg-[#f5f5f5f]">
             
@@ -42,4 +42,4 @@ function HOME() {
     );
 }
 
-export default HOME;
+export default Home;

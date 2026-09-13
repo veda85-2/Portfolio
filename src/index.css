@@ -104,10 +104,16 @@ nav a:hover {
 
 }
 .home-image img{
-    height: 50%;
-    width: 60%; 
-    border-radius: 30px;
-    margin-top: -5%;
+    height: 70%;
+    width: 70%; 
+  
+  object-fit: cover;
+
+  border: 8px solid white;
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15%;
 }
 .home-sec p{
  padding-top: 2%;
@@ -234,6 +240,7 @@ padding: 100px 8%;
     background: rgba(255,255,255,0.05);
     backdrop-filter: blur(8px);
     margin-top: 10%;
+    margin-right: 30%;
     transition: 0.3s;
 }
 

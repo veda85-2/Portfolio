@@ -1,4 +1,4 @@
-import profileImg from "../assets/image1 (2).png";
+import profileImg from "../assets/white.jpeg";
 function HOME() {
     return (
         <section id="Home" className="min-h-screen w-full bg-[#f5f5f5f]">

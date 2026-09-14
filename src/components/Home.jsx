@@ -1,24 +1,20 @@
 import profileImg from "../assets/white.jpeg";
 function Home() {
     return (
-        <section id="Home" className="min-h-screen w-full bg-[#f5f5f5f]">
+        <section id="Home" className="h-screen w-full bg-[#f5f5f5f]">
             
-            <div className="home-sec">
-                
-                <div className="home-image">
-                    <img src={profileImg} alt="Rupali" />
-                </div>
-
-                <div className="home-text">
-                    <h1 className="intro-text">
+            <div className="home-sec min-h-[700px] flex items-center justify-center p-[90px] gap-[50px]">
+            
+                <div className="home-text  w-[60%]">
+                    <h1 className="intro-text text-6xl text-[#670620] py-[2%] mb-[3%]">
                         Hello, <span>I am</span>
                     </h1>
                    
 
-                    <h1 className="intro-name">
+                    <h1 className="intro-name text-[#5e2b2b] text-6xl pl-[5%] inline-block ">
                        RUPALI SINGH
                     </h1>
-                    <p className="text-white text-xl">Curious enough to ask how it works.
+                    <p className="text-xl pt-[2%] mr-[5%] text-black">Curious enough to ask how it works.
                                         Stubborn enough to build it myself.
                                           I'm Rupali Singh
 
@@ -32,6 +28,11 @@ function Home() {
                     Resume
                 </button></div>
                 </div>
+
+                <div className="home-image w-[25%] h-[25%] fit-cover ">
+                    <img src={profileImg} alt="Rupali" className="border-[8px] border border-white mb-[15%]"/>
+                </div>
+
               
 
             </div>

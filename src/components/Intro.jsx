@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 
 function Intro({onEnter}){
-const text = "";
+const text = "Welcome";
 
 const [displayText, setDisplayText] = useState("");
 
@@ -23,7 +23,7 @@ useEffect(()=>{
          
         <h1 className="text-6xl font-bold font-cursive text-center">
             {displayText}
-            <span className="animate-pulse">Welcome</span>
+            <span className="animate-pulse"></span>
         </h1>
        <button
         onClick={onEnter}
